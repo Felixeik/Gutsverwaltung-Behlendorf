@@ -1,0 +1,365 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.navbar a {
+    color: #4E4E4E;
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration: underline 2px rgba(232, 194, 65, 0);
+    text-underline-offset: 6px;
+    transition: color 0.1s;
+    transition: text-decoration-color 0.3s;
+}
+
+.navbar a:hover {
+    color: rgba(232, 194, 65, 1);
+    text-decoration-color: rgba(232, 194, 65, 1);
+}
+
+.navbar {
+    padding: 10px;
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.banner {
+    display: flex;
+    background-color: rgba(232, 194, 65, 1);
+}
+
+.banner-left {
+    width: 50%;
+    float: left;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.banner-left img {
+    max-width: 100%;
+    margin: 0;
+}
+
+.banner-right {
+    width: 50%;
+    text-align: center;
+    padding-top: 50px;
+    float: left;
+}
+
+h1 {
+    font-family: 'lora', sans-serif;
+    color: white;
+    font-size: 54px;
+    margin: 20px 0;
+}
+
+.banner-logo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.banner-logo img {
+    width: 15%;
+}
+
+.banner-subhead {
+    color: white;
+    margin-top: 25px;
+}
+
+.banner-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 25px;
+}
+
+.banner-buttons a {
+    width: 200px;
+    border: solid 1px white;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    transition: all 0.2s;
+}
+
+.banner-buttons a:hover {
+    background-color: white;
+    color: rgba(232, 194, 65, 1);
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+.unternehmen {
+    display: flex;
+}
+
+.unternehmen-left {
+    width: 50%;
+    float: left;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.unternehmen-right {
+    width: 50%;
+    float: left;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.unternehmen-right img {
+    width: 100%
+}
+
+.unternehmen-info {
+    padding: 100px;
+}
+
+.unternehmen-info span {
+    color: #4E4E4E;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 45px;
+    color: rgba(232, 194, 65, 1);
+    font-family: 'lora', sans-serif;
+    margin: 20px 0;
+}
+
+.unternehmen-info p {
+    color: #4E4E4E;
+    margin-bottom: 50px;
+}
+
+.unternehmen-info a {
+    width: 400px;
+    border: solid 1px rgba(232, 194, 65, 1);
+    color: rgba(232, 194, 65, 1);
+    font-size: 15px;
+    padding: 15px;
+    transition: all 0.2s;
+}
+
+.unternehmen-info a:hover {
+    background-color: rgba(232, 194, 65, 1);
+    color: white;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+.leistungen {
+    background-color: rgba(232, 194, 65, 1);
+}
+
+.leistungen-top {
+    display: flex;
+    justify-content: center;
+}
+
+h3 {
+    color: white;
+    font-size: 45px;
+    font-family: 'lora', sans-serif;
+}
+
+.leistungen-middle {
+    display: flex;
+    justify-content: center;
+    padding: 0 10%;
+}
+
+.leistungen-bottom {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+.leistungen-point {
+    width: 20%;
+    padding: 20px;
+    border: solid 1px white;
+    text-align: center;
+}
+
+.leistungen-icon {
+    display: flex;
+    justify-content: center;
+}
+
+.leistungen-icon img {
+    width: 35%;
+}
+
+h4 {
+    margin: 10px 0;
+    color: white;
+}
+
+.leistungen-point p {
+    color: white;
+}
+
+.leistungen-bottom a {
+    width: 300px;
+    border: solid 1px white;
+    color: white;
+    font-size: 15px;
+    padding: 15px;
+    transition: all 0.2s;
+}
+
+.leistungen-bottom a:hover {
+    background-color: white;
+    color: rgba(232, 194, 65, 1);
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+.team {
+    display: flex;
+}
+
+.team-left {
+    width: 50%;
+    float: left;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.team-right {
+    width: 50%;
+    float: left;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.team-right img {
+    width: 100%
+}
+
+.team-info {
+    padding: 100px;
+}
+
+.team-info span {
+    color: #4E4E4E;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 45px;
+    color: rgba(232, 194, 65, 1);
+    font-family: 'lora', sans-serif;
+    margin: 20px 0;
+}
+
+.team-info p {
+    color: #4E4E4E;
+    margin-bottom: 50px;
+}
+
+.team-info a {
+    width: 400px;
+    border: solid 1px rgba(232, 194, 65, 1);
+    color: rgba(232, 194, 65, 1);
+    font-size: 15px;
+    padding: 15px;
+    transition: all 0.2s;
+}
+
+.team-info a:hover {
+    background-color: rgba(232, 194, 65, 1);
+    color: white;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+.kontakt {
+    display: flex;
+}
+
+.kontakt-right {
+    width: 50%;
+    float: left;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.kontakt-left {
+    width: 50%;
+    float: left;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.kontakt-left img {
+    width: 100%
+}
+
+.kontakt-info {
+    padding: 100px;
+}
+
+.kontakt-info span {
+    color: #4E4E4E;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 45px;
+    color: rgba(232, 194, 65, 1);
+    font-family: 'lora', sans-serif;
+    margin: 20px 0;
+}
+
+.kontakt-info p {
+    color: #4E4E4E;
+    margin-bottom: 50px;
+}
+
+.phone-number {
+    color: #4E4E4E;
+    font-weight: 500;
+    text-decoration: underline 2px rgba(232, 194, 65, 0);
+    text-underline-offset: 6px;
+    transition: all 0.2s;
+}
+
+.email {
+    color: #4E4E4E;
+    font-weight: 500;
+    text-decoration: underline 2px rgba(232, 194, 65, 0);
+    text-underline-offset: 6px;
+    transition: all 0.2s;
+}
+
+.phone-number:hover {
+    text-decoration: underline 2px rgba(232, 194, 65, 1);
+}
+
+.email:hover {
+    text-decoration: underline 2px rgba(232, 194, 65, 1);
+}
